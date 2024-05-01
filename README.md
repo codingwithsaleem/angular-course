@@ -35,4 +35,18 @@ same for aothers...................... explore from this link [angular cli](http
 
 
 
- 
+ QT@SaleemRaza MINGW64 /d/saleem-work/angular-course (master)
+$ node -v
+v16.20.2
+
+QT@SaleemRaza MINGW64 /d/saleem-work/angular-course (master)
+$ npm -v
+7.0.7
+
+QT@SaleemRaza MINGW64 /d/saleem-work/angular-course (master)
+$ ng --version
+
+
+Angular CLI: 11.2.19
+Node: 16.20.2
+OS: win32 x64
