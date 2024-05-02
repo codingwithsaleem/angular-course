@@ -7,6 +7,7 @@ import { SignupComponent } from './signup/signup.component';
 import { InlineStyleComponentComponent } from './inline-style-component/inline-style-component.component';
 import { InlineTempleteComponentComponent } from './inline-templete-component/inline-templete-component.component';
 import { InlineComponentComponent } from './inline-component/inline-component.component';
+import { UserAuthModule } from './user-auth/user-auth.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { InlineComponentComponent } from './inline-component/inline-component.co
     InlineComponentComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    UserAuthModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

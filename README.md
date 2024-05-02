@@ -33,6 +33,15 @@ this is shortform(ng g c componentName)
 same for aothers...................... explore from this link [angular cli](https://angular.io/cli)
 
 
+# what are module in angular
+
+a place where you can group the components, directives, pipes, and services, which are related to the application
+
+# why we use module instead of creating all components at single module 
+
+Angular supports lazy loading, a technique that loads only the necessary parts of your application when they are needed. Modules play a crucial role in enabling this feature, resulting in faster initial load times and improved user experiences.
+
+
 
 
  QT@SaleemRaza MINGW64 /d/saleem-work/angular-course (master)
