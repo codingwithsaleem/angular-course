@@ -23,5 +23,36 @@
   <app-register></app-register>
   <app-login></app-login>
 
+ <button (click)="myTestFunction('name' , 4 , true )">Click Me</button>
+ <br>
+ <br>
+
+ <input type="text" placeholder="input you name" #name name="name" (input)="getUserName(name.value)">
+ <br>
+ <br>
+ <input type="number" name="age" #age placeholder="enter your age">
+ <button (click)="getUserAge(age.value)">click here</button>
+ <br>
+  <p>your name is {{displayName}}</p>
+  <p>your age is {{displayAge}}</p>
+
+   <!-- counter app start   -->
+  <app-inline-style-component></app-inline-style-component>
+
+  <!-- counter app end   -->
+
+  <!-- ng loop start  -->
+
+  <div>
+    <h1>ng loop</h1>
+    <ul>
+      <li *ngFor="let item of employee; let i = index">
+        {{item.employeeId}} - {{item.employeeName}} - {{item.employeeAge}}
+      </li>
+    </ul>
+  </div>
+
+ 
+
     
 </div>

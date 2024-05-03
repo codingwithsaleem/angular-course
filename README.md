@@ -42,6 +42,19 @@ a place where you can group the components, directives, pipes, and services, whi
 Angular supports lazy loading, a technique that loads only the necessary parts of your application when they are needed. Modules play a crucial role in enabling this feature, resulting in faster initial load times and improved user experiences.
 
 
+# What is property binding in angular ?
+
+Property binding in Angular helps you set values for properties of HTML elements or directives. Use property binding to do things such as toggle button features, set paths programmatically, and share values between components.
+
+# the difference between property binding and introplation in angular ?
+
+Interpolation is ideal for displaying dynamic data directly in templates, using a simple {{ }} syntax. On the other hand, property binding is more suited for binding component properties to HTML element properties, allowing for dynamic updates based on changes in the component.
+
+# *ngFor
+
+ngFor is a specific type of directive used to dynamically repeat data in a template. In plain JavaScript you would use a for loop - ngFor provides similar functionality for Angular templates. You can utilize ngFor to iterate over arrays and even asynchronous values.
+
+
 
 
  QT@SaleemRaza MINGW64 /d/saleem-work/angular-course (master)

@@ -13,4 +13,18 @@ export class InlineStyleComponentComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // counter app 
+
+  counter: number = 0;
+
+  incrementCounter(){
+    this.counter++;
+}
+
+  decrementCounter(){
+    if(this.counter > 0){
+    this.counter--;
+  }
+
+  }
 }
