@@ -54,7 +54,9 @@ Interpolation is ideal for displaying dynamic data directly in templates, using 
 
 ngFor is a specific type of directive used to dynamically repeat data in a template. In plain JavaScript you would use a for loop - ngFor provides similar functionality for Angular templates. You can utilize ngFor to iterate over arrays and even asynchronous values.
 
+# Angular Forms:
 
+Angular provides two different approaches to handling user input through forms: reactive and template-driven.
 
 
  QT@SaleemRaza MINGW64 /d/saleem-work/angular-course (master)
