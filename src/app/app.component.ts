@@ -67,6 +67,11 @@ export class AppComponent {
     }
   ]
 
+  toggle = false;
+
+  toggleDiv(){
+    this.toggle = !this.toggle;
+  }
   
 
   
