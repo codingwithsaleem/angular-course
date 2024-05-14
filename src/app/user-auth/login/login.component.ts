@@ -12,4 +12,13 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  loginData= {
+    email: '',
+    password: '',
+  }
+
+  onloginSubmit(){
+    console.log('Login form submitted', this.loginData);
+  }
+
 }

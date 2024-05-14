@@ -59,6 +59,9 @@ ngFor is a specific type of directive used to dynamically repeat data in a templ
 Angular provides two different approaches to handling user input through forms: reactive and template-driven.
 
 
+
+
+
  QT@SaleemRaza MINGW64 /d/saleem-work/angular-course (master)
 $ node -v
 v16.20.2
